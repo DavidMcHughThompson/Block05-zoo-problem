@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>About Us</title>
+    <title>About Our Zoo Friends</title>
   </head>
   <body>
     <header>
       <h1>Meet Our Zoo Friends!</h1>
+      <p>
+        We're happy you've taken an interest in our zoo and in the animals that
+        call it their home. Scroll down to meet some of them, and to learn a
+        little more about their species.
+      </p>
     </header>
     <main>
       <h2>Our animals</h2>
@@ -14,19 +19,38 @@
         Scroll down to meet a few of them!
       </p>
     </main>
+    <!--I put each animal in it's own parent div class, both to make it easier to seperate out, and potentially for stylizing easier in css-->
     <div class="bears">
       <h3>Bears</h3>
       <ol>
         <li>Ollie</li>
         <li>Mona</li>
       </ol>
+      <p>
+        For more information about bears, click the following link:
+        <a href="https://en.wikipedia.org/wiki/Bear">Bears</a>
+      </p>
+      <!--wasnt sure if it would work to have an a tag inside of a p tag, but it seems like it worked out like I wanted it to-->
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Ours_brun_parcanimalierpyrenees_1.jpg"
+        alt="Majestic Brown Bear"
+      />
     </div>
     <div class="giraffes">
+      <!--I believe the reason these are all spaced correctly without too much effort on my part is because they're all block styled.  I'm writing this comment before inserting images though, so those might fuck it all up.-->
       <h3>Giraffes</h3>
       <ol>
         <li>Frankie</li>
         <li>Coconut</li>
       </ol>
+      <p>
+        For more information about bears, click the following link:
+        <a href="https://en.wikipedia.org/wiki/Giraffe">Giraffes</a>
+      </p>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/800px-Giraffe_Mikumi_National_Park.jpg"
+        alt="big ol' giraffe"
+      />
     </div>
     <div class="lions">
       <h3>Lions</h3>
@@ -34,6 +58,14 @@
         <li>Mella</li>
         <li>Karl</li>
       </ol>
+      <p>
+        For more information about bears, click the following link:
+        <a href="https://en.wikipedia.org/wiki/Lion">Lions</a>
+      </p>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg"
+        alt="Lion waiting in the grass"
+      />
     </div>
     <div class="monkeys">
       <h3>Monkeys</h3>
@@ -42,6 +74,14 @@
         <li>Earl</li>
         <li>Banana Pudding</li>
       </ol>
+      <p>
+        For more information about bears, click the following link:
+        <a href="https://en.wikipedia.org/wiki/Monkey">Monkeys</a>
+      </p>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/4/43/Bonnet_macaque_%28Macaca_radiata%29_Photograph_By_Shantanu_Kuveskar.jpg"
+        alt="Monkey looking quizzical"
+      />
     </div>
     <div class="alligators">
       <h3>Alligators</h3>
@@ -50,6 +90,19 @@
         <li>Aspen</li>
         <li>Mika</li>
       </ol>
+      <p>
+        For more information about bears, click the following link:
+        <a href="https://en.wikipedia.org/wiki/Alligator">Alligators</a>
+      </p>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Chinese%2Bamerican_alligators.png"
+        alt="alligators on an old timey rock. Apparently dinosaur means 'thunder lizard'"
+      />
     </div>
+    <summary>
+      This has been a page meant to introduce visitors to some of our animals,
+      and to provide further resources to learn about them, should their names
+      and pictures pique our visitors' interest.
+    </summary>
   </body>
 </html>
